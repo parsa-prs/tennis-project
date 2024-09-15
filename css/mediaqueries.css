@@ -1,0 +1,232 @@
+@media screen and (max-width:1200px) {
+    main{
+        width: 995px;
+        margin: 0 auto;   
+        grid-template-columns:66.66666666% 33.3333%;
+        gap: 33px;
+        margin-top: 85px;
+        margin-bottom: 18px;
+    }
+
+    aside .fa-search{
+        left: 236px;
+        top: 19px;
+        rotate: 445deg;
+        color: #656565;
+        font-size: 17px;
+    }
+
+    .video-player-button button{
+        width: 90px;
+        height: 90px;
+        background-color: #fff;
+        top: 154px;
+        right: 290px;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+
+    .slider button:nth-child(2){
+        top: 165.5px;
+        left: 30px;
+    }
+    
+    .slider button:nth-child(3){
+        top: 165.5px;
+        right: 30px;
+    }
+
+    aside{
+        background-color: #fff;
+        position: sticky;
+        height: 795px;
+        top: 15px;
+        padding: 32px 32px;
+    margin-bottom: 68px;
+    }
+
+    .page-title h1{
+        margin-bottom: 10px;
+       }
+
+       .page-title{
+        margin-top: 85px;
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    main{
+       grid-template-columns: 1fr; 
+       margin: 0 auto;
+       grid-template-rows:1fr 1fr; 
+        width: 787px;
+        margin-top: 75px;
+        margin-bottom: 5px;
+    }
+
+    .main-sections{
+        margin-bottom: -15px;
+    }
+
+    .page-title{
+        margin-top: 75px;
+    }
+
+    .page-title h1{
+        margin-bottom: 8px;
+       }
+
+    .video-player-button button{
+        width: 90px;
+        height: 90px;
+        background-color: #fff;
+        top: 165px;
+        right: 350px;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+
+    
+    aside .fa-search {
+        left: 688px;
+        top: 21px;
+        rotate: 445deg;
+        color: #656565;
+        font-size: 19px;
+    }
+
+    aside input[placeholder="جستجو..."]{
+        font-size: 17px;
+        padding-bottom: 8px;
+    }
+
+    aside .aside-search-bar input{
+        border: 1px solid #656565;
+        padding: 17px 43px;
+        width: 100%;
+    }
+
+    .box-img img {
+        width: 180px;
+        height: 125px;
+    }
+
+    .recent-posts-circle {
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        margin: 9px 10px 0 10px;
+        background-color: #A1A1A1;
+    }
+    
+    aside {
+        width: 82.5%;
+        background-color: #fff;
+        position: sticky;
+        height: 1298px;
+        top: 15px;
+        padding: 32px 32px;
+        margin-bottom: 68px;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    main{
+        grid-template-columns: 1fr; 
+        grid-template-rows:1fr 1fr;
+        margin: 0 auto; 
+        width: 582px;
+        margin-top: 40px;
+        margin-bottom: -18px;
+     }
+
+    .main-sections{
+        margin-bottom: -35px;
+    }
+
+
+     .page-title{
+        margin-top: 35px;
+    }
+
+    .page-title h1{
+        margin-bottom: 5px;
+       }
+
+    .video-player-button i {
+        color: black;
+        font-size: 21px;
+    }
+
+    .video-player-button button {
+        width: 70px;
+        height: 70px;
+        background-color: #fff;
+        top: 128px;
+        right: 255px;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+
+    .slider button:nth-child(2){
+        top: 135.5px;
+        left: 30px;
+    }
+    
+    .slider button:nth-child(3){
+        top: 135.5px;
+        right: 30px;
+    }
+
+    aside .fa-search {
+        left: 482px;
+        top: 15px;
+        rotate: 443deg;
+        color: #656565;
+        font-size: 19px;
+    }
+
+    aside .aside-search-bar input {
+        border: 1px solid #656565;
+        padding: 11px 43px;
+        width: 100%;
+    }
+
+    aside{
+        background-color: #fff;
+        position: sticky;
+        height: 890px;
+        top: 15px;
+        padding: 32px 32px;
+    }
+
+    .aside-last-img img{
+        border: 15px solid #E4EAEB;
+        border-right: 110px solid #E4EAEB;
+        border-left: 110px solid #E4EAEB;
+    }
+
+    .slider button{
+        padding: 17px 17px;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+
+    .slider button i{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    main{
+        grid-template-columns: 1fr; 
+        grid-template-rows:1fr 1fr; 
+        width: 422px;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: -18px;
+     }
+}

@@ -1,0 +1,408 @@
+/* Reset Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    direction: rtl;
+    /* outline: 1px solid red; */
+}
+
+/* End Reset Styles */
+
+
+/* General Styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F3F8F9;
+}
+
+input{
+    border: 0;
+}
+
+input:focus{
+    outline: 0;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+section:not(.main-sections){
+    margin-bottom: 65px;
+}
+
+/* End General Styles */
+
+/* Ready Classes */
+
+.text-align-center{
+    text-align: center;
+}
+
+.news-color{
+    color: #2EAC6D;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.date-color{
+   color: #A1A1A1; 
+}
+
+.p-color{
+    color: #656565;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+.white-backgrand{
+    background-color: #fff;
+}
+
+.d-grid{
+    display: grid;
+}
+
+.m-b-1{
+    margin-bottom: 30px;
+}
+
+.m-t-1{
+    margin-top: 24px;
+}
+
+.m-t-2{
+    margin-top: 14px;
+}
+
+
+/* End Ready Classes */
+
+
+
+/* Header Codes */
+
+
+
+/* End Header Codes */
+
+/* Title Of Page Codes */
+.page-title{
+    margin-top: 100px;
+}
+
+.page-title h1{
+ margin-bottom: 17px;
+}
+/* End Title Of Page Codes */
+
+
+/* Main Codes */
+
+main {
+    grid-template-columns:66.66666666% 33.3333%;
+    gap: 33px;
+    width: 1100px;
+    margin:0 auto;
+    margin-top: 130px;
+    margin-bottom: 18px;
+}
+
+/* Sections Codes */
+
+main img:not(.slider-img){
+    transition: all 0.25s linear 0.000001s;
+}
+
+
+.section-img{
+    overflow: hidden;
+}
+
+.circle-after-news{
+    width: 3.5px;
+    height: 3.5px;
+    border-radius: 50%;
+    margin: 9px 10px 0 10px;
+    background-color: #A1A1A1;
+}
+
+.video-player-button button{
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    top: 154px;
+    right: 323px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.video-player-button i{
+    color: black;
+    font-size: 23px;
+}
+
+.audio-box{
+    padding: 50px 61px;
+}
+
+.audio-box h2{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.slider button{
+    padding: 20px 20px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.slider button:nth-child(2){
+    top: 187.5px;
+    left: 30px;
+}
+
+.slider button:nth-child(3){
+    top: 186.5px;
+    right: 30px;
+}
+
+.slider button i{
+    font-size: 20px;
+}
+
+.fifth-section .green-line{
+    width: 2px;
+    height: 143.5px;
+    background-color: #91BE4D;
+    margin-top: 20px;
+}
+
+.quoto-post{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 45px 45px;
+}
+
+.comma-img{
+    width: 25px;
+    height: 25px;
+}
+
+.other-pages-buttons .d-flex button{
+        padding: 8px 14px;
+        background-color: #F3F8F9;
+        border:1px solid #656565 ;
+        font-size: 16px;
+        margin-left: 5px;
+}
+
+.other-pages-buttons .d-flex button:first-child{
+        background-color: black;
+        color: #fff;
+}
+
+.other-pages-buttons .d-flex button:last-child{
+        font-size: 12px;
+}
+
+.other-pages-buttons .d-flex button{
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, background-position 0.3s ease;
+}
+
+.hover-date{
+    transition: color 0.3s ease;
+}
+
+/* End Sections Codes */
+
+/* Aside Codes */
+
+aside{
+    background-color: #fff;
+    position: sticky;
+    height: 858px;
+    top: 15px;
+    padding: 32px 32px;
+    margin-bottom: 68px;
+}
+
+aside .aside-search-bar input{
+    border: 1px solid #656565;
+    padding: 17px 40px;
+    width: 100%;
+}
+
+aside .fa-search{
+    left: 270px;
+    top: 19px;
+    rotate: 445deg;
+    color: #656565;
+    font-size: 17px;
+}
+
+.recent-posts{
+    margin-top: 32px;
+}
+
+.box-img{
+    overflow: hidden;
+}
+
+
+.box-img img{
+    width: 290px;
+    height: 100px;
+}
+
+.box-text{
+    margin-right: 20px;
+}
+
+.box-text h4{
+    transition: all 0.3s ease;
+}
+
+.recent-posts-data{
+    margin-bottom: 10px;
+}
+
+.recent-posts-news{
+    font-size:13px ;
+    transition: all 0.3s ease;
+}
+
+.recent-posts-circle{
+    width: 2.5px;
+    height: 2.5px;
+    border-radius: 50%;
+    margin: 9px 10px 0 10px;
+    background-color: #A1A1A1;
+}
+
+.recent-posts-date{
+    font-size:13px ;
+}
+
+.aside-last-img img{
+    border: 15px solid #E4EAEB;
+}
+
+aside input[placeholder]{
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+aside .box-text h4{
+    width: 185px;   
+}
+/* End Aside Codes */
+
+/* End Main Codes */
+
+
+/* Side Buttons Codes */
+
+.side-buttons{
+    line-height: 58px;
+    position: fixed;
+    left: 0px;
+    top: 35%;
+    box-shadow: 0 2px 24px -2px rgba(0, 0, 0, .14);
+}
+
+.side-buttons button{
+    background-color: #2EAC6D;
+    color: #fff;
+    margin-top: 1px;
+    width: 60px;
+    height: 60px;
+    transition: transform .3s, color .3s, background-color .3s;
+}
+
+.side-buttons i{
+    font-size: 17px;
+}
+
+/* End Side Buttons Codes */
+
+
+
+/* Hover Styles */
+
+.scale-img:hover{
+    scale: 1.1;
+}
+
+.other-pages-buttons .d-flex button:hover:not(:first-child){
+    background-color:#fff ;
+}
+
+.hover-date:hover{
+    color: #0F0F0F;
+}
+
+.hover-bg-green:hover{
+    background-color: #2EAC6D;
+}
+
+.hover-bg-green:hover i{
+    color: #fff;
+}
+
+.slider button:hover i{
+    color: #2EAC6D;
+}
+
+.hover-color-green:hover{
+    color: #2EAC6D;
+}
+
+.hover-color-gray:hover{
+    color: #656565;
+}
+
+.hover-add-width:hover{
+    width: 90px;
+}
+
+/* End Hover Styles */
+
+aside input:focus [placeholder]{
+    color: black;
+}
+
+/* End Focus Styles */
+
+/* Before , After Styles */
+
+
+
+/* End Before , After Styles */
